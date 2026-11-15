@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Princess ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="loader">
+    <div class="loader-heart">💗</div>
+    <h2>Preparing something special...</h2>
+</div>
+
+<div class="cursor-glow"></div>
+<div id="particles"></div>
+<canvas id="confetti"></canvas>
+
+<nav class="navbar">
+    <div class="logo">For You ♡</div>
+    <button id="musicBtn" onclick="toggleMusic()">♫ Music</button>
+</nav>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+        <p class="small-title">✨</p>
+
+        <h1>Happy Birthday</h1>
+
+        <h2 id="personName">mudhuuuu 💗</h2>
+
+        <p class="hero-description">
+            
+        </p>
+
+        <button class="main-btn" onclick="startExperience()">
+            Open Your Surprise ✨
+        </button>
+
+        <div class="scroll-text"></div>
+    </div>
+
+    <div class="hero-decoration heart-one">💗</div>
+    <div class="hero-decoration heart-two">💕</div>
+    <div class="hero-decoration heart-three">🌸</div>
+
+</section>
+
+<!-- COUNTDOWN -->
+<section class="section countdown-section" id="countdown">
+
+    <p class="eyebrow">THE CELEBRATION</p>
+    <h2 class="section-title">Your Special Day 🎂</h2>
+
+    <div class="countdown-boxes">
+        <div class="time-box">
+            <span id="days">00</span>
+            <small>Days</small>
+        </div>
+
+        <div class="time-box">
+            <span id="hours">00</span>
+            <small>Hours</small>
+        </div>
+
+        <div class="time-box">
+            <span id="minutes">00</span>
+            <small>Minutes</small>
+        </div>
+
+        <div class="time-box">
+            <span id="seconds">00</span>
+            <small>Seconds</small>
+        </div>
+    </div>
+
+    <p class="subtext">Every moment deserves a celebration ✨</p>
+
+</section>
+
+<!-- BIRTHDAY MESSAGE -->
+<section class="section message-section">
+
+    <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+    <h2 class="section-title"></h2>
+
+    <div class="message-card">
+        <div class="flower">🌸</div>
+
+        <p>
+            Once again happy birthday bangaruu 💕,
+            yavaglu nagtha happy indha eruuuu aythaaa.
+
+            matte yen gothaa edhuu nan kade indha ondhuu small 
+            gift ankoo aythaa mudhuuu🌸
+
+
+           
+        </p>
+
+        <div class="signature"></div>
+    </div>
+
+</section>
+
+<!-- CAKE -->
+<section class="section cake-section">
+
+    <p class="eyebrow">MAKE A WISH</p>
+
+    <h2 class="section-title">Your Birthday Cake 🎂</h2>
+
+    <p class="subtext">Tap the candles to blow them out!</p>
+
+    <div class="cake-container">
+
+        <div class="candles">
+            <div class="candle" onclick="blowCandle(this)">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle" onclick="blowCandle(this)">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle" onclick="blowCandle(this)">
+                <div class="flame"></div>
+            </div>
+        </div>
+
+        <div class="cake-top"></div>
+        <div class="cake-middle"></div>
+        <div class="cake-bottom"></div>
+
+        <div class="cake-plate"></div>
+
+    </div>
+
+    <h3 id="cakeMessage">Make a wish! 🌟</h3>
+
+    <button class="main-btn" onclick="celebrate()">
+        Celebrate 🎉
+    </button>
+
+</section>
+
+<!-- GALLERY -->
+<section class="section gallery-section">
+
+    <p class="eyebrow">LITTLE MOMENTS</p>
+    <h2 class="section-title">my favvvvv mudhuuu 🌸📸</h2>
+
+    <p class="subtext"></p>
+
+    <div class="gallery">
+
+        <div class="photo-card">
+            <img src="images/photo1.jpg" alt="Memory 1">
+            <p>putta medamuu 💗</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/photo2.jpg" alt="Memory 2">
+            <p>speeddd🌸</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/photo3.jpg" alt="Memory 3">
+            <p>bangaruuuu ✨</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="images/photo4.jpg" alt="Memory 4">
+            <p>Forever Remembered 💕</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- LETTER -->
+<section class="section letter-section">
+
+    <p class="eyebrow">A SECRET NOTE</p>
+    <h2 class="section-title">A Letter For You 💌</h2>
+
+    <button class="main-btn" onclick="openLetter()">
+        Read Your Letter 💗
+    </button>
+
+    <div class="letter" id="letter">
+        <div class="letter-content">
+            <h2> My Dear Birthday Girl,</h2>
+
+            <p> 
+                 mudhuuu yen gothaa navv ebruu heng parche adhvii<br>
+                 anthanee gothagthilla alvaa<br>
+                 hiiii sahanaaa<br>
+                 nan vishuuu<br><br>
+                 
+                 hello gothaythuu<br><br>
+
+                 edhe msg alva nammunna estu close madhiddu
+                 yestu cute alva mudhuu<br><br>
+
+                 matte nan e tara wish madhiddu ninge yen ansthuu anthaa helbekuu aythaaa<br>
+                 matte nanna block madbidbeda aythaa mudhuu <br>
+                 matte yen gothaa mudhuu nanige ninge polar bear alli DBC ice kodusbeku antha asee nin ok andre kodusthinii <br>please edhuke yenadruu heluu mari bedaa<br><br>
+
+                 love youuuu ❤️ love youuuu💗 love youuuu💕 
+            
+
+
+                
+
+
+
+                
+
+            </p>
+
+            <h3></h3>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>Made with love❤️</p>
+    <p></p>
+</footer>
+
+<audio id="birthdayMusic" loop>
+    <source src="birthday-music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
